@@ -1,0 +1,30 @@
+conda activate base
+cd C:\Users\Jonathan\OneDrive - University of Florida\pocsd\Design assignments\project
+python memoryfs_server.py 8000
+
+conda activate base
+cd C:\Users\Jonathan\OneDrive - University of Florida\pocsd\Design assignments\project
+python memoryfs_server.py 8001
+
+conda activate base
+cd C:\Users\Jonathan\OneDrive - University of Florida\pocsd\Design assignments\project
+python memoryfs_server.py 8002
+
+
+conda activate base
+cd C:\Users\Jonathan\OneDrive - University of Florida\pocsd\Design assignments\project
+python memoryfs_server.py 8003
+
+conda activate base
+cd C:\Users\Jonathan\OneDrive - University of Florida\pocsd\Design assignments\project
+python memoryfs_server.py 8004
+
+conda activate base
+cd C:\Users\Jonathan\OneDrive - University of Florida\pocsd\Design assignments\project
+python memoryfs_shell_rpc.py 4 http://127.0.0.1:8000 http://127.0.0.1:8001 http://127.0.0.1:8002 http://127.0.0.1:8003
+
+conda activate base
+cd C:\Users\Jonathan\OneDrive - University of Florida\pocsd\Design assignments\project
+python memoryfs_shell_rpc.py 8 http://127.0.0.1:8000 http://127.0.0.1:8001 http://127.0.0.1:8002 http://127.0.0.1:8003 http://127.0.0.1:8004 http://127.0.0.1:8005 http://127.0.0.1:8006 http://127.0.0.1:8007
+
+12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678
